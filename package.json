@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "next": "^6.1.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "name": "nextjs-auth0",
+  "description": "",
+  "version": "0.0.1",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfarine/nextjs-auth0.git"
+  },
+  "author": "Rae Farine <rfarine1027@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rfarine/nextjs-auth0/issues"
+  },
+  "homepage": "https://github.com/rfarine/nextjs-auth0#readme"
+}
