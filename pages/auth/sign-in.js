@@ -1,7 +1,7 @@
 import React from 'react'
-import { authorize } from '../../utils/auth0'
+import { authorize } from 'utils/auth0'
 
-import pageWrapper from '../../components/page/pageWrapper'
+import pageWrapper from 'components/page/pageWrapper'
 
 class SignIn extends React.Component {
   componentDidMount() {

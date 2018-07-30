@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "airbnb",
+    "plugin:prettier/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "globals": {
+    "window": true
+  },
+  "settings": {
+    "import/parser": "babel-eslint",
+    "import/resolver": {
+      "babel-module": {}
+    }
+  },
+  "rules": {
+    "react/jsx-one-expression-per-line": "off",
+    "class-methods-use-this": "off"
+  }
+}

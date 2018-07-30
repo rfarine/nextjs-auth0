@@ -1,0 +1,16 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    "transform-class-properties",
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "components": "./components",
+          "utils": "./utils"
+        }
+      }
+    ]
+  ]
+}
